@@ -15,8 +15,9 @@ jobs:
         run: |
           .\tosca_execution_client.ps1 `
             -toscaServerUrl http://localhost/ `
-            -projectName Master`
-            -events '[ "Event1" ]' `
+            -projectName Master `
+            -eventsConfigFilePath ./eventfile.json `
             -clientId Kag21Je8YkmQqVEt-Rqeow `
             -clientSecret aHdVPu4YQ0qFTLd1DzXKdww0yZaKmdxE2Tdl7dqdrEBA
         shell: pwsh
+

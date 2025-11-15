@@ -1,0 +1,9 @@
+{
+"testEvents":[
+{
+"testEventName":"Event1",
+"executionListName":"Openbrowser",
+"executionGroup":"DefaultGroup"
+}
+]
+}
